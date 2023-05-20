@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.go-to-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.about .about-left{
+    text-align: center;    
+    margin:0 6rem;
+    padding: 1.4rem;
+    max-width: 50vw;
+}
+
+.about .about-left p{
+    margin: 1.2rem 0;
+}
+
+.about .about-right{
+    text-align: left;   
+    padding: 1.4rem;
+    max-width: 50vw;
+}
+
+.skill-list{
+    list-style-type: disc;
+    margin: 1.2rem 2rem;
+}
+
+.skill{
+    padding-bottom: 0.5rem;    
+}
+/* .about-right .img-container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    position: relative;
+    align-items: center;
+    text-align: center ;
+}
+
+.about-right .img{
+    max-width: 90%;
+    border: 1px solid #333;
+}
+.about-right .top{
+    grid-column: 1 / span 8;
+    grid-row: 1;
+    padding-top: 20%;
+    z-index: 6;
+}
+.about-right .bottom{
+    grid-column: 4 / -1;
+    grid-row: 1;
+    z-index: 5;
+} */
