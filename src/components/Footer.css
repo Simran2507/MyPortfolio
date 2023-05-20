@@ -1,7 +1,8 @@
 .footer{
     width: 100%;
-    padding: 2rem 0;
-    background-color: #8bb7e3;
+    padding: 1rem 0;
+    background-color: rgb(163, 163, 163);
+    opacity: 0.9;
 }
 
 .footer-container{

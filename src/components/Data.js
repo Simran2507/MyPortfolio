@@ -16,7 +16,7 @@ const Data=[
         imgs: pro2,
         title: "Drum Kit",
         discription: "A web application that plays different sounds of different kinds of drums, you can press the picture of the drum to hear the sound or can click on the alphabet that is written on the picture on the musical instrument, it'll do the same thing.This Game will be built using HTML for the overall structure of the web page, CSS for the styling and layout, and JavaScript for the interactivity.",
-        github: "https://github.com/Simran2507/Front-End-Projects/tree/master/Simon%20Game%20Challenge",
+        github: "https://github.com/Simran2507/Front-End-Projects/tree/master/Drum-Kit",
         liveServer: "https://drum-kit-kappa-vert.vercel.app/" 
     },
     {
