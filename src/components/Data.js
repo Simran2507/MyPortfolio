@@ -1,6 +1,7 @@
-import pro1 from"..//Assets/project1.png"
-import pro2 from"..//Assets/project2.png"
-import pro3 from"..//Assets/project3.png"
+import pro1 from "..//Assets/project1.png"
+import pro2 from "..//Assets/project2.png"
+import pro3 from "..//Assets/project3.png"
+import pro4 from "..//Assets/project4.png"
 
 const Data=[
     {
@@ -27,6 +28,15 @@ const Data=[
         github: "https://github.com/Simran2507/TravelPage",
         liveServer: "https://travel-page-pi.vercel.app/" 
     },
+    {
+        id:"4",
+        imgs: pro4,
+        title: "Book Store",
+        discription: "The BookStore project is a full-stack application built using the MERN (MongoDB, Express.js, React.js, and Node.js) stack. It leverages React, a popular JavaScript library for building user interfaces, to create an interactive and dynamic book store platform.The book store's UI is designed with a responsive layout, adapting to different screen sizes and devices. React's state management capabilities, facilitated by hooks such as useState and useEffect, enable the application to handle data updates and re-render components efficiently. Users can conveniently manage book details using various CRUD (Create, Read, Update, Delete) operations. The front-end of the application is developed using React, which enables the creation of reusable UI components for a modular and efficient development experience.On the back-end, the application utilizes Express.js as a lightweight and flexible web framework for handling HTTP requests and API endpoints. MongoDB, a NoSQL database, is employed to store and retrieve book data, providing a scalable and efficient solution for data management.",
+        github:"https://github.com/Simran2507/BookStore",
+        liveServer:"https://book-store-eight-fawn.vercel.app/"
+
+    }
 ];
 
 export default Data;

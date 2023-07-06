@@ -38,7 +38,7 @@ function NavBar() {
             </li>
         </ul>
         <div class ="menuBar" onClick={tapHandler} >
-            {click ? (<FaBars size={20} style={{color: "white"}}></FaBars>) : (<FaTimes size={20} style={{color: "white"}}></FaTimes>)}            
+            {click ? (<FaBars size={20} style={{color: "black"}}></FaBars>) : (<FaTimes size={20} style={{color: "black"}}></FaTimes>)}            
         </div>
     </div>
   )
