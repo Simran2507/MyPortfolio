@@ -8,11 +8,11 @@ import AboutContent from '../components/AboutContent';
 const Home = () => {
   return (
     <div>
-      <NavBar></NavBar>
-      <HeroImg></HeroImg>
-      <ProjectCards></ProjectCards>
-      <AboutContent></AboutContent>
-      <Footer></Footer>
+      <NavBar/>
+      <HeroImg/>
+      <ProjectCards/>
+      <AboutContent/>
+      <Footer/>
     </div>
   )
 }

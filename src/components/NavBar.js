@@ -22,7 +22,7 @@ function NavBar() {
   window.addEventListener("scroll" , changeColor);
   return (
     <div className={color ? "header header-bg" :"header"}>
-        <Link to="./"><h1>Portfolio</h1></Link>
+        <Link to="/"><h1>Portfolio</h1></Link>
         <ul className= {click ? ("Menu") : ("Menu active")}>
             <li>
                 <Link to="/">Home</Link>
@@ -37,7 +37,7 @@ function NavBar() {
                 <Link to="/contact">Contact</Link>
             </li>
         </ul>
-        <div class ="menuBar" onClick={tapHandler} >
+        <div className ="menuBar" onClick={tapHandler} >
             {click ? (<FaBars size={20} style={{color: "black"}}></FaBars>) : (<FaTimes size={20} style={{color: "black"}}></FaTimes>)}            
         </div>
     </div>

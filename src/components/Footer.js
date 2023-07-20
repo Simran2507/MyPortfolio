@@ -10,7 +10,7 @@ function Footer() {
       <div className='footer-container'>
         <div className="left">
           <div className="location">
-            <FaHome size={20} style={{color: "black", marginRight: "2rem"}}/>
+            <FaHome size={20} style={{color: "black", marginRight: "2em"}}/>
             <div>
               <p>584/85 Laxmi Narayan Road</p>
               <p></p>
@@ -19,7 +19,7 @@ function Footer() {
           </div>
           <div className="phone">
             <h4>
-              <FaPhone size={20} style={{color: "black", marginRight : "2rem"}}/>
+              <FaPhone size={20} style={{color: "black", marginRight : "2em"}}/>
               +91 8303676655
             </h4>
           </div>
@@ -27,7 +27,7 @@ function Footer() {
         <div className="right">
           <div className="mail">
             <h4>
-              <FaMailBulk size={20} style={{color: "black", marginRight : "1rem"}}/>
+              <FaMailBulk size={20} style={{color: "black", marginRight : "2em"}}/>
               simranjaiswal2530@gmail.com
             </h4>
           </div>          

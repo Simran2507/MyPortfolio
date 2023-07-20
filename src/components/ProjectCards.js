@@ -1,4 +1,3 @@
-import './ProjectCards.css'
 import ProjectCard from './IndividualCard'
 import Data from './Data.js'
 import React from 'react'
